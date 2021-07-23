@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Bootcamp_Inter_BusinessCard</string>
+    <string name="label_business_card">Cartão de Visita</string>
+    <string name="label_description_new_card">Novo Cartão</string>
+    <string name="label_name">Nome</string>
+    <string name="label_phone">Telefone</string>
+    <string name="label_mail">Email</string>
+    <string name="label_enterprise">Empresa</string>
+    <string name="label_color">Cor</string>
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_show_sucess">Cartão cadastrado com sucesso</string>
+    <string name="label_share">Compartilhar</string>
+    <string name="label_update">Alterar</string>
 </resources>
