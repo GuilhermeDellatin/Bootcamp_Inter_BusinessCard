@@ -11,4 +11,6 @@ interface BusinessCardDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(businessCard: BusinessCard)
 
+    @Query("DELETE FROM BusinessCard WHERE id = :id")
+    suspend fun deleteById(id: Int)
 }

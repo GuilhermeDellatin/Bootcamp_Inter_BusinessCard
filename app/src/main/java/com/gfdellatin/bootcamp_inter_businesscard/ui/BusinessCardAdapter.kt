@@ -39,10 +39,15 @@ class BusinessCardAdapter :
                 listenerShare(it)
             }
 
+            binding.btnDelete.setOnClickListener {
+                listenerDelete(item)
+            }
+
         }
     }
 
     var listenerShare: (View) -> Unit = {}
+    var listenerDelete: (BusinessCard) -> Unit = {}
 
 }
 

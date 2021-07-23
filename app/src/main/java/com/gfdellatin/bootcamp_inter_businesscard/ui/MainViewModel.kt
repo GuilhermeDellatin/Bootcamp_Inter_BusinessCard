@@ -15,6 +15,10 @@ class MainViewModel(private val businessCardRepository: BusinessCardRepository) 
     fun getAll(): LiveData<List<BusinessCard>> {
         return businessCardRepository.getAll()
     }
+
+    fun deleteById(businessCard: BusinessCard) {
+        businessCardRepository.deleteById(businessCard.id)
+    }
 }
 
 //Criar uma factory para o view model funcionar
