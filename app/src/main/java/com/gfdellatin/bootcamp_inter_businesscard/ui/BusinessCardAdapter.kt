@@ -2,6 +2,7 @@ package com.gfdellatin.bootcamp_inter_businesscard.ui
 
 import android.graphics.Color
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -34,8 +35,15 @@ class BusinessCardAdapter :
             binding.tvEnterprise.text = item.enterprise
             binding.mcvContent.setCardBackgroundColor(Color.parseColor(item.colorPersonalization))
 
+            binding.mcvContent.setOnClickListener {
+                listenerShare(it)
+            }
+
         }
     }
+
+    var listenerShare: (View) -> Unit = {}
+
 }
 
 class DiffCallback : DiffUtil.ItemCallback<BusinessCard>() {
