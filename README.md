@@ -4,6 +4,10 @@ Utilizando Arquitetura MVVM com ViewModel, View Binding e Room Database
 
 </br>
 ![img](https://i.imgur.com/i3i419R.png)
+
+<img src="https://i.imgur.com/i3i419R.png" width = "350"></img>
+
+![img](https://i.imgur.com/i3i419R.png)
 </br>
 ![img](https://i.imgur.com/DBpNqGI.png)
 </br>
